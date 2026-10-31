@@ -1,0 +1,8 @@
+Scenario;SQL;Requetes JPQL;L2 hits;L2 misses;L2 puts;Query hits;Transactions;Duree ms
+N+1 sans cache;9;1;0;0;0;0;1;21.271
+JOIN FETCH;1;1;0;0;0;0;1;14.506
+Entity Graph;1;1;0;0;0;0;1;15.722
+L2 lecture froide;1;0;0;1;1;0;1;2.108
+L2 lecture chaude;0;0;1;0;0;0;1;0.907
+JPQL cache froid;1;1;0;0;5;0;1;14.455
+JPQL cache chaud;0;0;5;0;0;1;1;2.584

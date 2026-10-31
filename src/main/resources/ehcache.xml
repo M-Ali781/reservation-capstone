@@ -1,0 +1,6 @@
+<config xmlns="http://www.ehcache.org/v3">
+ <cache alias="com.example.model.Salle"><expiry><ttl unit="minutes">60</ttl></expiry><resources><heap unit="entries">1000</heap></resources></cache>
+ <cache alias="com.example.model.Utilisateur"><expiry><ttl unit="minutes">60</ttl></expiry><resources><heap unit="entries">1000</heap></resources></cache>
+ <cache alias="default-query-results-region"><expiry><ttl unit="minutes">10</ttl></expiry><resources><heap unit="entries">1000</heap></resources></cache>
+ <cache alias="default-update-timestamps-region"><expiry><none/></expiry><resources><heap unit="entries">10000</heap></resources></cache>
+</config>
